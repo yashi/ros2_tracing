@@ -1,0 +1,6 @@
+name: ros2_tracing
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
+  depends:
+    - rcutils
